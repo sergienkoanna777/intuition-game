@@ -1,0 +1,71 @@
+body{
+    background-image:url("anthony-tran-5d41p_9vlOk-unsplash.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color: rgb(2, 61, 61);
+}
+.header, .number, .box{
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.header{
+    background: linear-gradient(to left top, blue, rgb(252, 0, 0));
+            -webkit-text-fill-color:transparent;
+            -webkit-background-clip: text;
+            font-size:40px;
+            margin-top: 25px;
+            font-family: 'Libre Baskerville', serif;
+}
+
+.number{
+    background: linear-gradient(to left top, rgb(243, 4, 231), rgb(252, 0, 0));
+            -webkit-text-fill-color:transparent;
+            -webkit-background-clip: text;
+            font-size: 30px;
+            font-family: 'Libre Baskerville', serif;
+}
+
+#guess{
+    padding:10px;
+    font-family: 'Libre Baskerville', serif;
+    font-size:15px;
+    border:none;
+}
+
+#btn{
+    font-family: 'Libre Baskerville', serif;
+    font-size:15px;
+    padding:20px;
+    border:none;
+    color:rgb(255, 10, 161);
+}
+
+@media all and (max-width: 800px ){
+    body{
+        background-size: 150ch;
+        
+    }
+    .header{
+        background: linear-gradient(to left top, rgb(0, 255, 55), rgb(0, 101, 252));
+            -webkit-text-fill-color:transparent;
+            -webkit-background-clip: text;
+        font-size:20px;
+        margin-top: 15px;
+    }
+    .number{
+        background: linear-gradient(#04cdf0, #33f1e7);
+            -webkit-text-fill-color:transparent;
+            -webkit-background-clip: text;
+        font-size:20px;
+        margin-top:150px;
+    }
+    #guess{
+        font-size:10px;
+        padding:8px;
+}
+    #btn{
+        font-size:10px;
+        padding:10px;
+    }
+}

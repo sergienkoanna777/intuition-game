@@ -1,0 +1,56 @@
+body{
+    background-image: url("dollar-gill-0V7_N62zZcU-unsplash.jpg");
+    background-color: rgb(42, 61, 83);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.push{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+h1{
+    font-size:60px;
+    color:rgb(245, 126, 28);
+    font-family: 'Libre Baskerville', serif;
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(6, 6, 122);
+    background-color: rgb(252, 132, 53);
+    border: none;
+    border-radius: 30px;
+    font-family: 'Libre Baskerville', serif;
+}
+button:hover{
+    cursor: pointer;
+}
+
+@media all and (max-width:800px){
+    body{
+    background-size: 150ch;
+        
+}
+    .header{
+        margin-top:30px;
+    }
+    h1{
+        font-size:20px;
+    }
+    button{
+        padding: 8px;
+        font-size: 12px;
+    }
+}
